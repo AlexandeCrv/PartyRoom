@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Funções da pt</title>
+</head>
+<body>
+    <section>
+    <div id="container">
+        <h1 id="h1" >Quais as quests da party hoje?</h1>
+        <img src="espada (3).png" alt="">    <input id="inpt" type="text" placeholder="Bota a proxima quest ai"> <img src="espada (3).png" alt=""> 
+
+        <select name="" id="classeselect">
+             <option  value="Berseker">
+                <p id="" >Berseker</p>
+            </option> 
+            <option value="Tanker">
+                <p>Tanker</p>
+            </option>
+            <option value="Paladin">
+                <p>Paladin</p>
+            </option>
+            <option value="Wizard">
+                <p>Wizard</p>
+            </option>
+            <option value="Healer">
+                <p>Healer</p>
+            </option>
+            <option value="Fighter">
+                <p>Fighter</p>
+            </option>
+            <option value="Animago">
+                <p>Animago</p>
+            </option>
+            <option value="Soul Duelist">
+                <p>Soul Duelist</p>
+            </option>
+            <option value="Arcanist">
+                <p>Arcanist</p>
+            </option>
+            <option value="Skull Void">
+                <p>Skull Void</p>
+                
+            </option>
+        </select>       
+        <br> 
+
+
+
+        <img  id="adicionar" title="Adicionar nova quest" onmouseenter="enter('add')"  onmouseout="sair('add')" onclick="bibiu()" src="adicionar.png" alt=""> 
+        <div class="classes1" >
+           <img  id="espada"  ondblclick="sair('espada')"src="espada.png" title="Berseker">    <img  title="Tanker" ondblclick="sair('escudo')" id="escudo" src="escudo.png" alt="">   <img   title="Paladin" ondblclick="sair('espadadefogo')"  id="espadadefogo" src="espadaf.png" alt=""> <img   title="Wizard" ondblclick="sair('cajado')"  id="cajado" src="cajadomagico.png" alt=""> <img   ondblclick="sair('varinha')"  id="varinha" title="Healer" src="varinhamagica.png" alt="">
+                        </div>
+                        <div class="list" id="list1" >
+
+                            <div class="tamanhop">
+                                <p id="questb"></p> 
+                                 </div>
+
+                            <div class="tamanhop">  
+                                     <p id="questt"></p>
+                                     </div>
+                            <div class="tamanhop">
+                                        <p id="questp" > </p>
+                                         </div>
+                            <div class="tamanhop">
+                                            <p id="questm"> </p>
+                                             </div>
+                            <div class="tamanhop">
+                                                <p id="questh"></p>
+                                                 </div>
+                    </div>
+
+                    <div class="classes1">
+                        <img id="soco"  ondblclick="sair('soco')" src="brass-knuckles.png" title="Fighter" alt=""> <img src="druid.png"  ondblclick="sair('pata')"  id="pata" title="Animago"> <img src="swords.png"  ondblclick="sair('dual')" id="dual" title="Soul Duelist" alt=""> <img title="Arcanist"  ondblclick="sair('olho')"  id="olho" src="star-of-david.png" alt=""> <img  id="arvore"    ondblclick="sair('arvore')"  src="cranio (1).png" title="Grenn Wizard" alt="">
+                    </div>
+                        <div class="list"  id="list2">
+
+                            <div class="tamanhop">
+                                <p id="questf"></p> 
+                                 </div>
+
+                            <div class="tamanhop">  
+                                     <p id="questa"></p>
+                                     </div>
+                            <div class="tamanhop">
+                                        <p id="questsd" ></p>
+                                         </div>
+                            <div class="tamanhop">
+                                            <p id="questar"> </p>
+                                             </div>
+                            <div class="tamanhop">
+                                                <p id="quests"></p>
+                                                 </div>
+
+                        
+                    
+                    
+            </div>
+        </section>
+        <section   >
+            <div id="imgg" >
+                <div id="b">
+                         <img src="espadaenorme.png" alt=""> 
+                         <p>Berseker</p>
+                             <p> <img class="borderf" src="azureherald_previewreddit_gif (240×240).png" alt=""></p>
+                             <p class="corp">+++ Dano Físico  <br> + + - Dano reduzido <br> + - - Mobilidade <br> - - - Suporte </p>
+             
+                </div>
+
+                <div id="t" >
+                        <img src="escudoe.png" alt="">
+                        <p>Tanker</p>
+                        <p><img  class="borderf" src="6d29063f-bdb2-4e7d-99b0-0da24ca147a0.png" alt=""></p>
+                        <div id="decriçãop">
+                        <p class="corp">+++ Dano reduzido <br> - - - Dano bruto <br> - - - Mobilidade <br> + - - Suporte </p>
+                        
+                         </div>
+
+                </div>
+
+                <div id="pa" >
+                    <img src="espadafe.png" alt="">
+                    <p>Paladin</p>
+                    <p><img class="borderf" src="- Find & Share on GIPHY.png" alt=""></p>
+                    <p class="corp">+ - - Dano Hibrido  <br> + + - Dano reduzido <br> - - - Mobilidade <br> + + - Suporte </p>
+
+                </div>
+
+                <div id="m" >
+                        <img src="cajadomagicoe.png" alt="">
+                        <p>Wizard</p>
+                        <p> <img  class="borderf" src="Uh3glWX_gif (200×200).png" alt=""></p>
+                        <p class="corp">+++ Dano mágico  <br> + - - Mobilidade <br> - - - Dano reduzido <br> + - - Suporte </p>
+                </div>
+
+                <div id="h" >
+                            <img src="varinhamagicae.png" alt="">
+                            <p>Healer</p>
+                            <p><img class="borderf" src="healer.png" alt=""></p>
+                            <p class="corp" >+ - - Dano mágico  <br>  + - - Mobilidade <br> - - - Dano reduzido <br> +++ Suporte </p>
+                </div>
+                        </div>
+                        
+        </section>
+        <section>
+            <div id="imggg">
+                <div id="pu">
+                    <img src="soco-ingles.png" alt="">
+                    <p>Fighter</p>
+                    <p><img class="borderf" src="3a0e5455-f5c5-41fa-bb5b-842ab4e3e672.png" alt=""></p>
+                    <p class="corp">+ + - Dano Físico  <br>  + + - Mobilidade <br> + + - Dano reduzido <br> - - - Suporte </p>
+                </div>
+
+                <div>
+                    <img src="druida.png" alt="">
+                    <p>Animago</p>
+                    <p><img class="borderf" src="4551242_orig_gif (220×220).png" alt=""></p>
+                    <p class="corp">+ + - Dano mágico  <br>  + + - Mobilidade <br> + - - Dano reduzido <br> + - - Suporte </p>
+                </div>
+
+                <div>
+                    <img src="espadas.png" alt="">
+                    <p>Soul Duelist</p>
+                    <p><img class="borderf" src="duelist-fa45-450a-b790-252caacc291a.png" alt=""></p>
+                    <p class="corp">+ + + Dano Hibrido  <br>  + + + Mobilidade <br> - - - Dano reduzido <br> - - - Suporte </p>
+                </div>
+
+                <div>
+                    <img src="estrela-de-davi.png" alt="">
+                    <p>Arcanist<p>
+                    <p><img class="borderf" src="arcanist-a5c5-48b3-9dfe-ff1417e0ef41.png" alt=""></p>
+                    <p class="corp">+ + + Dano mágico  <br>  + + - Mobilidade <br> + - - Dano reduzido <br> - - - Suporte </p>
+                </div>
+
+                <div>
+                    <img src="cranio (2).png" alt="">
+                    <p>Skull Void </p>
+                    <p><img class="borderf" src="void(200×200).png" alt=""></p>
+                    <p class="corp"> + - - Dano Hibrido  <br>  + + - Mobilidade <br> + - - Dano reduzido <br> + + + Suporte </p>
+                </div>
+
+            </div>
+        </section>
+</body>
+<script src="script.js"></script>
+</html>
+
+

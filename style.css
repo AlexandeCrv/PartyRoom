@@ -1,0 +1,120 @@
+@font-face {
+    font-family:'jersey';
+    src: url('assets/Jersey10-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'pixel';
+    src: url('static/PixelifySans-Regular.ttf');
+}
+select{
+    font-family: 'pixel';
+}
+
+#h1{
+    font-size: 60px;  
+}
+
+body{
+    height: 300vh;
+    font-family: 'pixel' ;
+    margin: 0;
+    background-image: url(a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center; 
+    color:whitesmoke;
+}
+
+#container{
+   width: 1100px;
+   height: 700px;
+   background-color: rgba(0, 0, 0, 0.233);
+   
+   border-radius: 20px;
+   font-family: 'pixel';
+   margin-left: 128px; 
+}
+
+#inpt{
+    font-family: 'pixel';
+    padding: 13px;
+    font-size: 25px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+#adicionar{
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.classes1{
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+p{
+    font-size: 20px;
+}
+
+#imgg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#imggg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.borderf{
+    border-radius: 10px;
+}
+
+.corp:hover{
+    transition: 0.5s all   ;
+    color: black;
+    
+}
+
+.tamanhop{
+    height: 50px;
+    width: 50px;
+}
+
+#list1{
+    width: 1100px;
+    height: 200px;
+}
+
+#list2{
+    width: 1100px;
+    height: 200px;
+}
+
+    
+#classeselect{
+
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+option{
+    font-family: 'pixel';
+}
